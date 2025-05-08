@@ -1,4 +1,5 @@
-// T.C = O(nlogn)
+// T.C sequential = O(nlogn)
+// T.C parallel per thread = O((nlogn)/P) + O(logn)
 
 #include <iostream>
 #include <omp.h>
